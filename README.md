@@ -15,7 +15,7 @@ Input is currently handled by an argument command line typically containing a ``
 **Compile the Parser.cpp File:**
    Open your terminal and navigate to the directory containing `Parser.cpp`, `Lexer.cpp`, `Token.cpp`, and `Token.h`.
    Use the following command to compile `Parser.cpp` along with the other necessary files:<br>
-   ``g++ -std=c++14 main.cpp Parser.cpp Lexer.cpp Token.h -o parser``<br>
+   ``g++ -std=c++14 main.cpp Parser.cpp Lexer.cpp Token.h -o parser``<br><br>
     Then type the following command to execute the ``parser`` file with ``input.txt`` located within the project directory with the class files, or whatever you choose as the argument line.<br>
     ``parser input.txt`` or ``./parser input.txt`` depending on OS.
 - This command compiles ``Parser.cpp``, ``Lexer.cpp``, and ``Token.cpp`` into an executable named ``parser``.<br>
