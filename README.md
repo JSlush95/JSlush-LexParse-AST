@@ -14,12 +14,12 @@ Input is currently handled by an argument command line typically containing a ``
 #### For Bash (Linux/Mac) or Linux-compatible Windows packages (such as MingW-w64)
 **Compile the Parser.cpp File:**
    Open your terminal and navigate to the directory containing `Parser.cpp`, `Lexer.cpp`, and `Token.h`.
-   Use the following command to compile `Parser.cpp` along with the other necessary files:<br>
+   Use the following command to compile all of the necessary files:
    ``g++ -std=c++14 main.cpp Parser.cpp Lexer.cpp Token.h -o parser``<br><br>
     Then type the following command to execute the ``parser`` file with ``input.txt`` located within the project directory with the class files, or whatever you choose as the argument line.<br>
     ``parser input.txt`` or ``./parser input.txt`` depending on OS.
-- This command compiles ``Parser.cpp``, ``Lexer.cpp``, and ``Token.h`` into an executable named ``parser``.<br>
-- The -std=c++14 flag can be changed for whatever version is desired.
+- This command compiles ``Parser.cpp``, ``Lexer.cpp``, and ``Token.h`` into an executable named ``parser.exe``.
+- The ``-std=c++14`` flag can be changed into whatever version is desired.
 
 ## Lexer.cpp
 ``Lexer.cpp`` provides the lexical analysis functionality for converting input source code into tokens. It defines a Lexer class responsible for tokenizing the input string.
